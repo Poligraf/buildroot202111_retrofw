@@ -1,0 +1,9 @@
+config BR2_PACKAGE_LIBOPK
+        bool "libopk"
+        default y
+        select BR2_PACKAGE_ZLIB
+        select BR2_PACKAGE_LIBINI
+        help
+          Library to handle OPK packages.
+
+          https://github.com/pcercuei/libopk

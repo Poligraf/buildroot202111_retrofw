@@ -1,0 +1,7 @@
+config BR2_PACKAGE_LIBINI
+	bool "libini"
+    default y
+	help
+	  Tiny library to help reading INI files.
+
+	  https://github.com/pcercuei/libini
